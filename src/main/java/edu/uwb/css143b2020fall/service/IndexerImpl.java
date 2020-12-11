@@ -12,7 +12,7 @@ public class IndexerImpl implements Indexer {
         for (int i = 0; i < docs.size(); i++) {
             String[] word = docs.get(i).split("\\s+");
             for (int j = 0; j < docs.size(); j++) {
-                if (!words.contains(word[j])) {
+                if (!words.contains(word[j]) ) {
                     words.add(word[j]);
                 }
             }
