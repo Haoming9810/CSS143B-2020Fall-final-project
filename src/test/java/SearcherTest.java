@@ -93,6 +93,12 @@ public class SearcherTest {
                         indices,
                         "sunny",
                         new ArrayList<>(Arrays.asList(4, 6))
+                ),
+                //add one more test
+                new TestCase(
+                        indices,
+                        "wow",
+                        Util.emptyResult()
                 )
         ));
 
